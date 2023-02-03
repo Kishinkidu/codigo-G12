@@ -31,3 +31,11 @@ git status
 git add . (para dar commit  toda la carpeta)
 git add "nombre del archivo.extension o archivos a dar commit)
 ```
+* Crear el registro de los cambios realizado.
+```bash 
+git commit -m "comentario corto y conciso"
+```
+* para ver una linea de tiempo de los commits que hemos realizado.
+```bash
+git log ( da informacion de hora y fecha de la modificacion)
+```
