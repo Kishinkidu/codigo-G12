@@ -39,3 +39,7 @@ git commit -m "comentario corto y conciso"
 ```bash
 git log ( da informacion de hora y fecha de la modificacion)
 ```
+* para poder ver el detalle de un commit en especifico :
+```bash 
+git show "id del commit"
+```
