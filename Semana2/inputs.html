@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <h1>Formularios</h1>
+        <!-- Sirve para crear un formulario-->
+        <form>
+            <!-- los input titene tipos, por lo general el defecto sono de texto pero hay mas-->
+            <p>
+                <input type="text" name="name" placeholder="Ingresa tu nombre" required autocomplete="off">
+
+            </p>
+            <p>
+                <input type="email" name="email" placeholder="Ingresa tu correo" readonly  value="13123@gmail.com">
+            </p>
+            <p>
+                <input type="number" name="phone_number" placeholder="Ingresa un numero">
+            </p>
+
+            <p>
+                <input type="password" name="password" placeholder="Contraseña">
+            </p>
+
+            <p>
+                <!--
+                    videos/*
+                    audios/*
+                    pdf/*
+                    image/*
+                    etc. todos los formatos
+                -->
+                <input type="file" name="file" accept="image/*"   required>
+            </p>
+            <p>
+                <input type="date" name="date" required>
+            </p>
+            <p>
+                <input type="time" name="time" required>
+            </p>
+            <p>
+                <input type="datetime-local" name="date_time" required>
+            </p>
+            <p>
+                <input type="checkbox" name="terms" required> Aceptas los terminos y condiciones
+            </p>
+            <p>
+                <h4>Escoge un opcion</h4>
+                <input type="radio" name="option" checked required> Opcion 1
+            </p>
+            <p>
+                <input type="radio" name="option" required> opcion 2
+            </p>
+            <p>
+                <input type="radio" name="option"required> opcion 3
+            </p>
+            <p>
+                <input type="color">
+              
+            </p>
+
+            <p>
+                <button type="submit" >Enviar datos</button>
+            </p>
+            
+            </p>
+
+        </form>
+    </section>
+</body>
+
+</html>
