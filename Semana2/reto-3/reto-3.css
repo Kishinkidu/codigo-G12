@@ -10,38 +10,111 @@
 }
 body{
     font-family: 'Outfit', sans-serif;
-    font-size: 18px;
+    font-size: 12px;
     background-color: hsl(217, 54%, 11%);
 
 }
 .card{
     background-color: hsl(216, 50%, 16%);
     color: hsl(0, 0%, 100%);
-    width: 400px;
-    
+    width: 290px;
+    height: 470px;
+    position: relative;
     text-align: center;
     border-radius: 20px;
+    justify-content: center;
+    box-shadow: 0px 25px 25px rgba(0,0,0,0.50);
 }
+
+
 .Equilibrium{
-    width:330px ;
+    width:250px ;
+    height: 250px;
     border-radius: 30px;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
+    position: relative;
+    transition: all 500ms ease-out;
+    cursor: pointer;
 }   
+ .card .Equilibrium .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(178, 100%, 50%, 0.5);
+    visibility: hidden;
+ }
+
 
 h2{
-    color: hsl(178, 100%, 50%);
+    color: hsl(0, 0%, 100%);
     text-align: left;
-    padding: 30px;
+    padding-left: 25px;
+}
+h2:hover{
+    color: hsl(178, 100%, 50%); 
+    cursor: pointer;
 }
 .parrafo{
     color: hsl(215, 51%, 70%);
-    padding-left: 30px;
+    padding: 10px 25px;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
-.ether{
-    width: 15px;
-    
+.cripto{
+    width: 10px;
+    height: 15px;
+    display: inline-flex;
+    margin-right: 40px;
+}
+.p1{
+    padding-left: 20px ;
+    position: absolute;
+    color: hsl(178, 100%, 50%);
+    display: inline-flex;
+}
 
+.hora{
+   
+    display: inline-flex;
+    margin-left: 100px;
+    padding-right: 70px ;
+
+    
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.p2{
+    position: absolute;
+    
+    left: 205px;
+    color: hsl(215, 51%, 70%);
+    
+}
+.foot{
+    border-top: 1px solid hsl(215, 32%, 27%);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.perfil{
+    width: 30px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.p3{
+    position: absolute;
+    left: 65px;
+    bottom: 30px;
+    color: hsl(215, 51%, 70%);
+}
+.nombre{
+    position: absolute;
+    left: 130px;
+    bottom: 30px;
 }
