@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    width: 400px;
+    
+    text-align: center;
+    border-radius: 20px;
+}
+.Equilibrium{
+    width:330px ;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+}   
+
+h2{
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+    padding: 30px;
+}
+.parrafo{
+    color: hsl(215, 51%, 70%);
+    padding-left: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.ether{
+    width: 15px;
+    
+
+}

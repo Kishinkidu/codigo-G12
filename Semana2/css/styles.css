@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    width:350px;
+    padding: 10px;
+}
+
+.input-name{ 
+    border-radius: 12px;
+    border: 0.5px solid gray;
+}
+
+#boton-enviar{
+    background-color: #12EB92;
+    border: none;
+    color: brown;
+    padding: 12px;
+    border-radius: 60px;
+    cursor:pointer;
+    width: 250px;
+    font-size: 18px;
+}
+/* cuando colocams el mouse en un elemento 
+tiene una propiedad como hobber */
+#boton-enviar:hover{
+    background-color: yellow;
+    border: 1px solid red;
+}
