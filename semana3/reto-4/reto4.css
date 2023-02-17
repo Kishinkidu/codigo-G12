@@ -1,145 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: monospace, sans-serif;
-    background-color: #101b40;
-    color: #fff;
-  }
-  
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    width: 600px;
-  }
-  
-  .title {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .mood {
-    background: transparent;
-    color: #fff;
-    font-family: monospace, sans-serif;
-    text-transform: uppercase;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    cursor: pointer;
-  }
-  
-  .search {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #313e67;
-    padding: 10px;
-    border-radius: 12px;
-    gap: 20px;
-  }
-  
-  .search input {
-    flex-grow: 1;
-    background-color: transparent;
-    border: none;
-    font-size: 18px;
-    color: #fff;
-    font-family: monospace, sans-serif;
-  }
-  
-  input::placeholder {
-    color: #fff;
-    font-family: monospace, sans-serif;
-  }
-  
-  input:focus {
-    outline: none;
-  }
-  
-  .search button {
-    border: none;
-    color: #fff;
-    font-family: monospace, sans-serif;
-    background-color: #2250e9;
-    padding: 10px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  .result {
-    display: flex;
-    background-color: #313e67;
-    padding: 30px;
-    border-radius: 12px;
-    margin-top: 30px;
-    gap: 30px;
-  }
-  
-  .avatar {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  
-  .profile {
-    flex-grow: 1;
-  }
-  
-  .profile-title {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .username {
-    color: #05133f;
-    margin-top: 5px;
-  }
-  
-  .date {
-    color: #ccc;
-    font-size: 13px;
-  }
-  
-  .about {
-    margin-top: 20px;
-    color: #ccc;
-  }
-  
-  .stats {
-    display: flex;
-    justify-content: space-around;
-    background-color: #101b40;
-    margin-top: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-  
-  h6 {
-    color: #ccc;
-  }
-  
-  .social {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
-    gap: 30px;
-  }
-  
-  .social div {
-    width: 50%;
-  }
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace, sans-serif;
+  background-color: #101b40;
+}
+.flex {
+  display: flex;
+}
+.Just-cont-spa-bet {
+  justify-content: space-between;
+}
+.aling-items-center {
+  align-items: center;
+}
+.border-none {
+  border: none;
+}
+.background-transp {
+  background: transparent;
+}
+.white {
+  color: #fff;
+}
+.pad10 {
+  padding: 10px;
+}
+.fontfam {
+  font-family: monospace, sans-serif;
+}
+.ccc{
+  color: #ccc;
+}
+.margint30{
+  margin-top: 30px;
+}
+.margint20{
+  margin-top: 20px;
+}
+main {
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 600px;
+}
+.mood {
+  text-transform: uppercase;
+  gap: 15px;
+  cursor: pointer;
+}
+.search {  
+  background-color: #313e67;
+  border-radius: 12px;
+  gap: 20px;
+}
+.search input {
+  flex-grow: 1;
+  background-color: transparent;
+  font-size: 18px;
+}
+input::placeholder {
+  color: #fff;
+  font-family: monospace, sans-serif;
+}
+input:focus {
+  outline: none;
+}
+.search button {
+  background-color: #2250e9;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.result {
+ background-color: #313e67;
+  padding: 30px;
+  border-radius: 12px; 
+  gap: 30px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile {
+  flex-grow: 1;
+}
+.username {
+  color: #05133f;
+  margin-top: 5px;
+}
+.date {
+  font-size: 13px;
+}
+.stats {
+  justify-content: space-around;
+  background-color: #101b40;
+  border-radius: 8px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.social {
+  font-size: 14px;
+  gap: 30px;
+}
+.social div {
+  width: 50%;
+}
