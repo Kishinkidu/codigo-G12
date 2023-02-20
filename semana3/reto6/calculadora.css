@@ -180,7 +180,7 @@ h4 {
 .title{
     position: absolute;
     display: flex;
-    top: 20px;
+    top: 30px;
     flex-direction: column;
  }
 .conteiner{
@@ -190,7 +190,7 @@ h4 {
    flex-direction: column;
     flex-wrap: nowrap;
     justify-items: end;
-    margin-top: 350px;
+    margin-top: 150px;
 }
 .part1{
     width: auto;
