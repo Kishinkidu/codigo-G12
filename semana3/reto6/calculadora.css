@@ -2,30 +2,51 @@
     padding: 0;
     margin: 0;
 }
-
 body {
-    font-family: 'Space Mono', monospace;
-    max-width: 1440px;
     font-weight: 700;
     background-color: hsl(185, 41%, 84%);
-
+    margin: auto;
 }
-
 .main {
-    max-width: 1444px;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
-
 .title {
-    color: hsl(186, 14%, 43%);
     letter-spacing: 10px;
     padding-bottom: 70px;
 }
-
+.flexdircolum{
+    flex-direction: column;
+}
+.flexwrap{
+    flex-wrap: wrap;
+}
+.justcontcenter{
+    justify-content: center;
+}
+.dispflex{
+    display: flex;
+}
+.alintemcenter{
+    align-items: center;
+}
+.colorgryan{
+    color: hsl(186, 14%, 43%);
+}
+.justcontspabet{
+    justify-content: space-between;
+}
+.bordernon{
+    border: none;
+}
+.colordarkcyan{
+    color: hsl(183, 100%, 15%);
+}
+.fontfamspacemono{
+    font-family: 'Space Mono', monospace;
+}
+.curspoint{
+    cursor: pointer;
+}
 .conteiner {
     width: 65%;
     height: 65%;
@@ -33,150 +54,153 @@ body {
     background-color: #fff;
     border-radius: 35px;
     padding: 25px;
-    display: flex;
-    align-items: center;
 }
-
 .part1 {
     width: 50%;
     height: 100%;
+    position: relative;
 }
-
 h4 {
     padding-left: 8px;
     padding-top: 10px;
-    color: hsl(186, 14%, 43%);
+    font-size: 20px;
 }
-
 .subtitle {
-    width: 85%;
+    width: 90%;
     height: 6%;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
+    padding-left:20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.subtitle img {
-    justify-content: center;
+.subimage {
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 11px;
 }
-
-.subtitle p {
-    width: auto;
-    display: flex;
+.number {
+    width: 100%;
+    height: 130%;
     justify-content: flex-end;
-    align-content: center;
+    text-align: end;
+    outline: none;
+    font-size: 25px;
 }
-
-.selectip {
-    display: flex;
-    flex-wrap: wrap;
+.number::placeholder{
+    color: hsl(186, 14%, 43%);
 }
-
+.number:hover{
+    border: 3px solid hsl(185, 41%, 84%);
+    border-radius: 6px;
+}
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 5px;
+}
 .selectip button {
     width: 125px;
     height: 55px;
     color: #fff;
     font-size: 25px;
-    font-family: 'Space Mono', monospace;
     border-radius: 10px;
-    border: none;
     background-color: hsl(183, 100%, 15%);
     margin: 10px;
-    cursor: pointer;
 }
-
+.selectip button:hover{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
 .selectip input {
     width: 113px;
     height: 52px;
     margin: 10px;
-    border: none;
     font-size: 100%;
-    -webkit-animation: none;
+    outline: none;
     text-align: center;
     font-weight: 780;
     padding-left: 8px;
-    cursor: pointer;
-    
+    text-align: end;
 }
-
-.custom::placeholder {
-    font-size: 8%;
-    font-family: 'Space Mono', monospace;
+.selectip input:hover{
+    border: 3px solid hsl(185, 41%, 84%);
+    border-radius: 6px;
 }
-
-.numbpeople {
-    width: 80%;
-    height: 6%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    padding-left: 30px;
-    color: hsl(183, 100%, 15%);
-    align-items: center;
+.selectip input::-webkit-outer-spin-button,
+.selectip input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 5px;
 }
-
 .part2 {
     width: 50%;
     height: 100%;
     background-color: hsl(183, 100%, 15%);
-    display: flex;
-    flex-direction: column;
     border-radius: 15px;
 }
-
 .tip {
     width: 90%;
     height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 25px;
 }
-
 .ta {
     color: hsl(189, 41%, 97%);
 }
-
 .person {
     font-size: 15px;
-    display: flex;
     position: absolute;
     padding-top: 60px;
     padding-left: 10px;
     color: hsl(184, 14%, 56%);
 }
-
 .price {
     font-size: 40px;
     color: hsl(172, 67%, 45%);
     padding-right: 15px;
     padding-top: 15px;
 }
-
 .total {
     width: 90%;
     height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 25px;
 }
-
 .foot {
     width: 100%;
     height: 12%;
-    display: flex;
-    justify-content: center;
     padding-top: 70px;
 }
-
 .reset {
     width: 80%;
     border-radius: 8px;
     background-color: hsl(172, 67%, 45%);
-    color: hsl(183, 100%, 15%);
-    font-weight: 780;
-    cursor: pointer;
+    font-weight: 830;
+}
+.reset:hover{
+    background-color: hsl(185, 41%, 84%);
+}
+@media screen and (min-width: 355px) and (max-width: 903px) {
+.title{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    flex-direction: column;
+ }
+.conteiner{
+    width: auto;
+    height: auto;
+    display: flex;
+   flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: end;
+    margin-top: 350px;
+}
+.part1{
+    width: auto;
+    height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   }
+.part2{
+    width: auto;
+    height: auto;
+    display: inline;
+}
 }

@@ -14,49 +14,47 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class="main">
-        <div class="title">
+<body class="flexwrap fontfamspacemono">
+    <div class="main justcontcenter alintemcenter dispflex flexdircolum">
+        <div class="title colorgryan">
             <h2>SPLI</h2>
             <h2>TTER</h2>
         </div>
-        <div class="conteiner">
+        <div class="conteiner flexwrap alintemcenter dispflex">
             <div class="part1">
-                <h4>Bill</h4>
+                <h4 class="colorgryan">Bill</h4>
+                <div class="subtitle dispflex justcontspabet">
+                    <input class="subimage justcontcenter" type="image" src="imagenes/icon-dollar.svg">
+                    <input class="number curspoint fontfamspacemono dispflex bordernon colordarkcyan" type="number" placeholder="142.55">
+                </div>
+                <h4 class="colorgryan">Select Tip %</h4>
+                <div class="selectip flexwrap dispflex">
+                    <button class="bordernon fontfamspacemono curspoint">5%</button>
+                    <button class="bordernon fontfamspacemono curspoint">10%</button>
+                    <button class="bordernon fontfamspacemono curspoint">15%</button>
+                    <button class="bordernon fontfamspacemono curspoint">25%</button>
+                    <button class="bordernon fontfamspacemono curspoint">50%</button>
+                    <input class="bordernon colordarkcyan curspoint" type="number" placeholder="Custom">
+                </div>
+                <h4 class="colorgryan">Number of People</h4>
                 <div class="subtitle">
-
-                    <img src="./imagenes/icon-dollar.svg" alt="">
-                    <p>142.55</p>
-
-                </div>
-                <h4>Select Tip %</h4>
-                <div class="selectip">
-                    <button>5%</button>
-                    <button>10%</button>
-                    <button>15%</button>
-                    <button>25%</button>
-                    <button>50%</button>
-                    <input type="number" placeholder="Custom">
-                </div>
-                <h4>Number of People</h4>
-                <div class="numbpeople">
-                    <img class="custom" src="./imagenes/icon-person.svg" alt="">
-                    <p class="cinco">5</p>
+                    <input class="subimage justcontcenter" type="image" src="./imagenes/icon-person.svg">
+                    <input class="number curspoint fontfamspacemono bordernon colordarkcyan" type="number" placeholder="5">
                 </div>
             </div>
-            <div class="part2">
-                <div class="tip">
+            <div class="part2 dispflex flexdircolum ">
+                <div class="tip alintemcenter dispflex justcontspabet">
                     <h4 class="ta">Tip Amount</h4>
-                    <p class="person">/person</p>
+                    <p class="person dispflex">/person</p>
                     <p class="price">$4.27</p>
                 </div>
-                <div class="total">
+                <div class="total alintemcenter dispflex justcontspabet">
                     <h4 class="ta">Total</h4>
-                    <p class="person">/person</p>
+                    <p class="person dispflex">/person</p>
                     <p class="price">$32.79</p>
                 </div>
-                <div class="foot">
-                    <button class="reset">RESET</button>
+                <div class="foot justcontcenter dispflex">
+                    <button class="reset colordarkcyan curspoint">RESET</button>
                 </div>
 
             </div>
