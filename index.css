@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .content-end {
+    justify-content: end;
+  }
+  
+  .content-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .nav {
+    margin: 30px;
+    height: 5vh;
+  }
+  
+  .nav ul {
+    gap: 40px;
+    list-style: none;
+  }
+  
+  .nav ul > li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .m-auto {
+    margin: auto;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mt-30 {
+    margin-top: 30px;
+  }
+  
+  .pt-30 {
+    padding-top: 30px;
+  }
+  
+  .m-max-width {
+    max-width: 1440px;
+  }
+  
+  .profile {
+    position: relative;
+  }
+  
+  .inner-profile {
+    height: 90vh;
+    gap: 60px;
+  }
+  
+  .title {
+    font-size: 44px;
+    font-weight: bold;
+  }
+  
+  .about {
+    font-size: 16px;
+    margin-top: 20px;
+    width: 80%;
+    /* justify: justificado */
+    text-align: justify;
+  }
+  
+  .resume {
+    margin-top: 20px;
+    background-color: #ff6464;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+  }
+  
+  .section-profile {
+    text-align: center;
+  }
+  
+  .img-profile {
+    border-radius: 50%;
+    width: 243px;
+    height: 243px;
+    object-fit: cover;
+  }
+  
+  .custom-shape-divider-bottom-1677124102 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1677124102 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 245px;
+}
+
+.custom-shape-divider-bottom-1677124102 .shape-fill {
+    fill: #DA8E11;
+}
+  
+  .works {
+    background: url("./img/low-poly-grid-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .challenges-container {
+    position: relative;
+  }
+  .challenges-buttons {
+    position: absolute;
+    width: 100%;
+    top: 177px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .challenges-buttons button {
+    background-color: #001220;
+    padding: 15px;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .challenges {
+    overflow-x: auto;
+    gap: 40px;
+  }
+  .challenges::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .card {
+    width: 25%;
+    min-width: 25%;
+    height: 354px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .shadow {
+    box-shadow: inset 0 -3em 3em rgba(214, 214, 214, 0.1),
+      0 0 0 0 rgb(190, 190, 190), 0.3em 0.3em 1em rgba(176, 176, 176, 0.3);
+  }
+  
