@@ -122,7 +122,7 @@
 }
   
   .works {
-    background: url("./img/low-poly-grid-haikei.svg");
+    background: url("./img/stacked-peaks-haikei.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,11 +130,12 @@
   }
   .challenges-container {
     position: relative;
+    height: 85vh;
   }
   .challenges-buttons {
     position: absolute;
     width: 100%;
-    top: 177px;
+    top: 370px;
     display: flex;
     justify-content: space-between;
   }
@@ -153,6 +154,7 @@
   .challenges {
     overflow-x: auto;
     gap: 40px;
+    scroll-behavior: smooth;
   }
   .challenges::-webkit-scrollbar{
     display: none;
@@ -166,8 +168,49 @@
     border-radius: 10px;
     transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
+  .card img{
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+  }
+  .card-body{
+    margin:20px;
+  }
+  .card-body a {
+    margin-top: 15px;
+    display: block;
+    background-color: #ff6464;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
   .shadow {
     box-shadow: inset 0 -3em 3em rgba(214, 214, 214, 0.1),
       0 0 0 0 rgb(190, 190, 190), 0.3em 0.3em 1em rgba(176, 176, 176, 0.3);
   }
-  
+  @media screen and (max-width: 480px)  {
+    .inner-profile{
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      height: 100vh;
+      gap: 20px;
+    }
+    .profile-text{
+      text-align: center;
+    }
+    .about{
+      margin: auto;
+      margin-top: 20px;
+    }
+    .custom-shape-divider-bottom-1677124102{
+      display: none;
+    }
+    .card{
+      width: 100%;
+      min-width: 100%;
+    }
+  }
