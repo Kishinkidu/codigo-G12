@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Fraunces", serif;
+  width: auto;
+  height: auto;
+}
+.cuerpo1 {
+  width: auto;
+  height: 100vh;
+}
+.cuerpo1 img {
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+.part1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 25px;
+  background-color: transparent;
+  position: relative;
+}
+.part1 header {
+  padding-left: 10px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #fff;
+}
+.part1 div a {
+  font-size: 17px;
+  margin: 60px;
+  color: #fff;
+  text-decoration: none;
+}
+.part1 div button {
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: "Fraunces", serif;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.titulo {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 70px;
+  letter-spacing: 8px;
+  color: #fff;
+}
+.flecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 160px;
+}
+.flecha img {
+  width: 30px;
+  height: 100px;
+  display: flex;
+}
+.cuerpo2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 700px);
+  flex-wrap: wrap;
+}
+.cuerpo2 div {
+  font-size: 17px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+.one h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.one p {
+  line-height: 25px;
+  font-family: "Barlow", sans-serif;
+  padding-top: 30px;
+  line-height: 35px;
+}
+.one a {
+  padding-top: 40px;
+}
+.two img {
+  width: 100%;
+  height: 100%;
+}
+.three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+    width: 420px;
+    height: 200px;
+    line-height: 30px;
+    position: absolute;
+    text-align: center;
+    padding-top: 350px;
+}
+.three img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.three h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.three p {
+  text-align: center;
+  padding-top: 50px;
+}
+.cuerpo3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio{
+    padding-bottom: 50px;
+    letter-spacing: 7px;
+}
+.clientes{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,26%);
+    grid-template-rows: auto;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.clientes div{
+    
+    padding: 20px;
+}
+.clientes div img{
+    border-radius: 50%;
+}
+.clientes div p{
+    
+    font-family: "Barlow", sans-serif;
+    line-height: 35px;
+    padding-top: 30px;
+}
+.clientes div h2{
+    font-weight: bold;
+    padding-top: 70px;
+}
+.car{
+font-size: 15px;
+}
+.cuerpo4{
+    width: 100%;
+    height: 100vh;
+}
+.imagenes{
+    width: 100%;
+    height: 62%;
+    display: flex;
+}
+.imagenes img{
+    width: 107%;
+    height: 100%;
+}
+.foot{
+    background-color: hsl(168, 34%, 41%);
+    height: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot div h2{
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.foot div a{
+    margin: 20px;
+}
+.redes{
+    padding-top: 75px;
+letter-spacing: 30px;
+}
