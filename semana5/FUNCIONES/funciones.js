@@ -116,10 +116,10 @@ function calcularFizzBuzz(numero) {
   }
 }
 
-const r1 = calcularFizzBuzz(100); // buzz
-const r2 = calcularFizzBuzz(351); // fizz
-const r3 = calcularFizzBuzz(75); // fuzzbuzz
-const r4 = calcularFizzBuzz(true);
+const R1 = calcularFizzBuzz(100); // buzz
+const R2 = calcularFizzBuzz(351); // fizz
+const R3 = calcularFizzBuzz(75); // fuzzbuzz
+const R4 = calcularFizzBuzz(true);
 
 console.log(r1);
 console.log(r2);
@@ -135,7 +135,6 @@ function calcularFizzBuzzRefactor(numero) {
   
     return "El numero no cumple las condicones del juego";
   }
-  
   const r1 = calcularFizzBuzzRefactor (100); // buzz
   const r2 = calcularFizzBuzzRefactor (351); // fizz
   const r3 = calcularFizzBuzzRefactor (75); // fuzzbuzz
