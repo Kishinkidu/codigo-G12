@@ -54,3 +54,15 @@ console.log(cursos);
 const reverseWord = (word) => word.split("").reverse().join("");
 
 console.log(reverseWord("hola mundo"));
+
+function palindromo(text) {
+  const invertedText = text.split("").reverse().join("");
+  if (text === invertedText) {
+    console.log("es palindromo");
+  } else {
+    console.log("no es palindromo");
+  };
+
+};
+
+palindromo("reconocer");
