@@ -110,8 +110,8 @@ const searchIndex = products.findIndex(function (product) {
 console.log("searchIndex", searchIndex);
 
 //for //soporta return
-//for of //soporta return
-//for in //soporta return
+//for of //soporta return da elemento
+//for in //soporta return da indices
 //forEach //no soporta return
 //map // return [array]
 //filter // return [array]

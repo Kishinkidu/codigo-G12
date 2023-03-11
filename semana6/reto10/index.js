@@ -4,6 +4,8 @@ const image = document.querySelector("#image");
 
 const form = document.querySelector("form");
 
+const moviesContainer = document.querySelector(".movies");
+
 // array vacio
 const movies = [];
 
@@ -19,4 +21,22 @@ form.onsubmit = function (event) {
   movieName.value = "";
   description.value = "";
   image.value = "";
+
+  renderMovies();
 };
+
+function renderMovies() {
+  if (movies.length === 0) return;
+
+  moviesContainer.innerHTML = "";
+
+  movies.forEach((movie) => {
+    moviesContainer.innerHTML += `
+      <div class="card mt-10">
+        <h4>${movie.name}</h4>
+        <p>${movie.description}</p>
+        <img width="200" src="${movie.image}" />
+      </div>
+    `;
+  });
+}
