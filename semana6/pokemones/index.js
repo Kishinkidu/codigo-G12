@@ -6,7 +6,6 @@ async function getPokemons() {
   
   renderPokemons(data.results);
 }
-
 function renderPokemons(pokemons) {
   pokemons.forEach((pokemon) => {
     container.innerHTML += `
