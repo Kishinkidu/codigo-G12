@@ -42,6 +42,7 @@ select{
     background-image: none;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
     color: rgb(231, 120, 76);
 }
 select::-ms-expand{
@@ -55,7 +56,7 @@ select::after{
     right: 0;
     padding: 0 1em;
     background: #000;
-    cursor: pointer;
+    
     pointer-events: none;
     transition: 25s all ease;
 }

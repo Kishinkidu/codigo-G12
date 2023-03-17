@@ -1,8 +1,17 @@
 const selectBreed = document.querySelector("#select-breed");
 const gallery = document.querySelector(".gallery");
+const btnClose = document.querySelector("#btn-close");
+const galleryResult = document.querySelector(".gallery-result");
+const main = document.querySelector("main");
 
-// Creen una funcion que obtenga el JSON de la API de razas
-//https://dog.ceo/api/breeds/list/all
+btnClose.onclick = function () {
+  main.style.display = "block";
+
+  btnClose.style.display = "none";
+  galleryResult.style.display = "none";
+};
+
+
 const getBreeds = async () => {
   const response = await fetch("https://dog.ceo/api/breeds/list/all");
   const data = await response.json();
@@ -15,6 +24,13 @@ const getBreeds = async () => {
 };
 
 getBreeds();
+
+function showImage(image){
+  main.style.display = "none";
+  btnClose.style.display = "block";
+  galleryResult.style.display = "block";
+  galleryResult.innerHTML = `<img width="300" src="${image.src}" />`;
+}
 
 selectBreed.onchange = async function () {
   const currentBreed = this.value;

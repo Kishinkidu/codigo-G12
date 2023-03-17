@@ -1,85 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./reto4.css" />
-</head>
-
-<body class="white">
-  <main class="flex aling-items-center">
-    <div class="container">
-      <div class="title flex Just-cont-spa-bet">
-        <!-- title | modo -->
-        <h2>devfinder</h2>
-        <button class="mood white flex aling-items-center border-none background-transp fontfam">
-          light <img width="20" height="20" src="./image/sun.png" alt="" />
-        </button>
-      </div>
-      <div class="search margint30 pad10 flex Just-cont-spa-bet aling-items-center border-none">
-        <!-- buscador -->
-        <img width="20" src="./image/search.png" alt="" />
-        <input class=" white border-none fontfam" type="text" placeholder="Search Github username..." />
-        <button class=" white border-none pad10 fontfam">Search</button>
-      </div>
-      <div class="result flex margint30">
-        <!-- resultado de busqueda -->
-        <div>
-          <img class="avatar" src="./image/github-octocat.jpg" alt="" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reto4.css">
+    <script src="./reto4.js" defer></script>
+  </head>
+  <body class="primary-color text-white primary-font">
+    <main class="flex items-center justify-center">
+      <div class="container">
+        <div class="flex space-between">
+          <!-- title | modo -->
+          <h2>devfinder</h2>
+          <button
+            class="mood flex items-center text-white primary-font border-none pointer bg-transparent"
+          >
+            light <img width="20" height="20" src="./image/sun.png" alt="" />
+          </button>
         </div>
-        <div class="profile">
-          <div class="profile-title flex Just-cont-spa-bet">
-            <div>
-              <h3>The Octocat</h3>
-              <p class="username">@octocat</p>
-            </div>
-            <div>
-              <p class="date ccc">Joined 25 Jan 2011</p>
-            </div>
+        <div
+          class="search flex items-center space-between mt-30 secondary-color p-10"
+        >
+          <!-- buscador -->
+          <img width="20" src="./image/search.png" alt="" />
+          <input
+            id="username"
+            type="text"
+            class="text-white primary-font border-none bg-transparent flex-grow-1"
+            placeholder="Search Github username..."
+          />
+          <button
+            id="btn-search"
+            class="text-white primary-font border-none pointer p-10 rounded-8"
+          >
+            Search
+          </button>
+        </div>
+        <div class="result flex mt-30 secondary-color">
+          <!-- resultado de busqueda -->
+          <div>
+            <img
+              id="avatar"
+              class="avatar"
+              src="./image/github-octocat.jpg"
+              alt=""
+            />
           </div>
-          <p class="about ccc margint20">This profile has no bio.</p>
-          <div class="stats flex pad10 margint20">
-            <div>
-              <h6 class="ccc">Repos</h6>
-              <p>8</p>
+          <div class="flex-grow-1">
+            <div class="flex space-between">
+              <div>
+                <h3 id="name">The Octocat</h3>
+                <p id="nickname" class="username">@octocat</p>
+              </div>
+              <div>
+                <p id="joined" class="date text-dark">Joined 25 Jan 2011</p>
+              </div>
             </div>
-            <div>
-              <h6>Followers</h6>
-              <p>3938</p>
+            <p class="text-dark mt-20">This profile has no bio.</p>
+            <div class="stats flex mt-20 primary-color p-10 rounded-8">
+              <div>
+                <h6 class="text-dark">Repos</h6>
+                <p id="repositorio">8</p>
+              </div>
+              <div>
+                <h6 class="text-dark">Followers</h6>
+                <p id="followers">3938</p>
+              </div>
+              <div>
+                <h6 class="text-dark">Following</h6>
+                <p id="following" >9</p>
+              </div>
             </div>
-            <div>
-              <h6>Following</h6>
-              <p>9</p>
+            <div class="social flex space-between items-center mt-20">
+              <div>
+                <img width="15" src="./image/marker.png" alt="" />
+                <span id="ubicacion" >San Francisco</span>
+              </div>
+              <div>
+                <img width="15" src="./image/twitter.png" alt="" />
+                <span>Not avaibable</span>
+              </div>
             </div>
-          </div>
-          <div class="social flex Just-cont-spa-bet aling-items-center margint20">
-            <div>
-              <img width="15" src="./image/marker.png" alt="" />
-              <span>San Francisco</span>
-            </div>
-            <div>
-              <img width="15" src="./image/twitter.png" alt="" />
-              <span>Not avaibable</span>
-            </div>
-          </div>
-          <div class="social flex Just-cont-spa-bet aling-items-center margint20">
-
-            <div>
-              <img width="15" src="./image/link.png" alt="" />
-              <span>https://github.blog</span>
-            </div>
-            <div>
-              <img width="15" src="./image/building.png" alt="" />
-              <span>@github</span>
+            <div class="social flex space-between items-center mt-20">
+              <div>
+                <img width="15" src="./image/link.png" alt="" />
+                <span id="link" >https://github.blog</span>
+              </div>
+              <div>
+                <img width="15" src="./image/building.png" alt="" />
+                <span id="sobrenombre" >@github</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
