@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <h1>Student List</h1>
+        <form id="studentForm" class="student_card student_form">
+            <label for="name">
+                <span>Nombre</span>
+                <input type="text" id="name" name="name" placeholder="Ex. Erick Revoredo">
+            </label>
+            <label for="city">
+                <span>Ciudad</span>
+                <input type="text" name="city" id="city" placeholder="Ex. Chancay">
+            </label>
+            <!-- <input type="hidden" id="studentId" value=""> -->
+            <button>Guardar</button>
+            <button type="reset">Limpiar</button>
+        </form>
+        <div id="studentList" class="student_list student_card"> No hay registros
+            <div class="student_row">
+                <img width="48" height="48" src="https://source.boringavatars.com/beam/48/Name?colors=5e412f,fcebb6,78c0a8,f07818,f0a830" alt="">
+                <div class="student_name">name</div>
+                <div class="student_city">city</div>
+                <div class="student_buttons">
+                    <button>✏️</button>
+                    <button>❌</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

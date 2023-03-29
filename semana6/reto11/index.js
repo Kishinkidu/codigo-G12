@@ -4,6 +4,7 @@ const imagen = document.querySelector("img")
 const nombre = document.querySelector("span")
 const contenedor = document.querySelector(".contenedor")
 const form = document.querySelector("form")
+const url = 'https://pokeapi.co/api/v2/pokemon/'
 
 const pokemones=[];
 form.onsubmit = function(event){
@@ -21,6 +22,7 @@ async function getpokemos(){
     renderPokemons(datos.results)
 
     imagen.textContent= URL.tofixed()
-    span.textcontent= .tofixed()
+   
 }
 
+boton.addEventListener("click",)

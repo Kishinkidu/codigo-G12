@@ -60,15 +60,17 @@ input{
     height: 99%;
     object-fit: contain;
 }
-span{
-    width: 70%;
+div span{
+    display: flex;
+    width: 90%;
     font-family: monospace;
     font-size: 30px;
     border-radius: 15px;
-    text-align: center;
     position: relative;
     top: 10px;
     text-transform: uppercase;
     background-color: rebeccapurple;
-    color: beige
+    color: beige;
+    text-align: center;
+    
 }
